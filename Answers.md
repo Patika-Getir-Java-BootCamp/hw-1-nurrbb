@@ -63,6 +63,7 @@ Eğer `hashCode()` doğru şekilde override edilmezse, HashMap veya HashSet nesn
 ---
 
 * Çoklu kalıtım (multiple inheritance) nedeniyle oluşur.
+* 
 * Java'da bir sınıf yalnızca bir başka sınıftan türeyebilir (extends ile).
 * Ancak, birden fazla interface implemente edilebilir (implements ile).
 * Eğer iki farklı interface aynı metodu tanımlarsa ve bir sınıf her iki interface'i de implemente ederse, hangi metodun çağrılacağı belirsiz hale gelir.
