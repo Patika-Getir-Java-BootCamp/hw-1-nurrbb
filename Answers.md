@@ -68,6 +68,7 @@ Eğer `hashCode()` doğru şekilde override edilmezse, HashMap veya HashSet nesn
 * Ancak, birden fazla interface implemente edilebilir (implements ile).
 * Eğer iki farklı interface aynı metodu tanımlarsa ve bir sınıf her iki interface'i de implemente ederse, hangi metodun çağrılacağı belirsiz hale gelir.
 Bu çakışma **_"Diamond Problem"_** olarak adlandırılır.
+* 
 
 **Java, çoklu sınıf kalıtımına izin vermez.**
 
