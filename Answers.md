@@ -2,7 +2,7 @@
 
 ## 1 – Why do we need to use OOP? Some major OOP languages?
 
----
+
 
 OOP'yi kullanmamızın temel nedeni, yazılım geliştirmeyi daha düzenli, esnek ve sürdürülebilir hale getirmektir.
 
@@ -21,7 +21,7 @@ OOP'yi kullanmamızın temel nedeni, yazılım geliştirmeyi daha düzenli, esne
 
 ## 2 – Interface vs Abstract class?
 
----
+
 
 ### Abstract Class
 - Nesne oluşturulamaz.
@@ -41,7 +41,7 @@ OOP'yi kullanmamızın temel nedeni, yazılım geliştirmeyi daha düzenli, esne
 
 ## 3 – Why do we need `equals` and `hashCode`? When to override?
 
----
+
 
 `equals()`: İki nesnenin aynı olup olmadığını belirlemek için kullanılır. Varsayılan implementasyon, bellek adreslerini karşılaştırır. (yani, iki nesne **aynı referansa** sahip mi diye bakar)
 
@@ -60,7 +60,7 @@ Eğer `hashCode()` doğru şekilde override edilmezse, HashMap veya HashSet nesn
 
 ## 4 – Diamond problem in Java? How to fix it?
 
----
+
 
 * Çoklu kalıtım (multiple inheritance) nedeniyle oluşur.
 * 
@@ -79,7 +79,7 @@ Interface’lerde çakışma olursa, metodu override ederek veya belirli bir int
 
 ## 5 – Why do we need a Garbage Collector? How does it run?
 
----
+
 
 * Kullanılmayan nesneleri otomatik olarak temizleyerek bellek sızıntılarını önler.
 * Ulaşılmayan nesneleri kaldırarak belleği optimize eder.
@@ -93,7 +93,7 @@ JVM tarafından gerektiğinde otomatik çalıştırılır, ancak `System.gc()`; 
 
 ## 6 – Java `static` keyword usage?
 
----
+
 
 `static`, bir sınıfa ait olan ve nesne oluşturulmadan erişilebilen üyeleri tanımlamak için kullanılır.
 
@@ -123,7 +123,7 @@ JVM tarafından gerektiğinde otomatik çalıştırılır, ancak `System.gc()`; 
 
 ## 7 – Immutability means? Where, How, and Why to use it?
 
----
+
 
 Immutability, bir nesnenin oluşturulduktan sonra durumunun değiştirilememesi anlamına gelir. Immutable nesneler, herhangi bir değişiklik gerektiğinde mevcut nesneyi değiştirmek yerine yeni bir nesne oluşturarak çalışır.
 
@@ -150,7 +150,7 @@ Immutability, bir nesnenin oluşturulduktan sonra durumunun değiştirilememesi 
 
 ## 8 – Composition and Aggregation means and differences?
 
----
+
 
 ### Composition
 
@@ -173,7 +173,7 @@ Aggregation, bir nesnenin başka bir nesne ile zayıf bir bağımlılık ilişki
 
 ## 9 – Cohesion and Coupling means and differences?
 
----
+
 Cohesion (Bağlılık) :
 
 * Cohesion, bir sınıf veya modülün **ne kadar iyi tanımlanmış ve odaklanmış** olduğunu gösterir.
@@ -197,7 +197,7 @@ Coupling (Bağımlılık) :
 
 ## 10 – Heap and Stack means and differences?
 
----
+
 
 Heap Memory (Yığın Bellek) :
 * Heap, Java uygulamasında **nesnelerin ve dizilerin** dinamik olarak tahsis edildiği bir bellek alanıdır.
@@ -224,7 +224,7 @@ Stack Memory (Yığın Bellek) Tanımı:
 
 ## 11 – Exception means? Types of Exceptions?
 
----
+
 
 * Exception, programın normal akışını bozan **çalışma zamanı hatalarıdır**.
 * Java'da hataları yönetmek için `try-catch-finally` ve `throws` yapıları kullanılır.
@@ -242,17 +242,17 @@ Stack Memory (Yığın Bellek) Tanımı:
 * JVM tarafından üretilen, genellikle kurtarılamayan hatalardır.
 * `OutOfMemoryError`, `StackOverflowError` gibi hatalar örnektir.
 
----
+
 
 ## 12 – How to summarize ‘clean code’ as short as possible?
 
 **Readable, maintainable, and well-structured code** that follows best practices like **SOLID, DRY, and KISS**.
 
----
+
 
 ## 13 – What is method hiding in Java?
 
----
+
 
 * "Kolay okunabilir, bakımı ve genişletilmesi basit, gereksiz karmaşıklıktan uzak kod."
 
