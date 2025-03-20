@@ -63,12 +63,11 @@ Eğer `hashCode()` doğru şekilde override edilmezse, HashMap veya HashSet nesn
 
 
 * Çoklu kalıtım (multiple inheritance) nedeniyle oluşur.
-* 
 * Java'da bir sınıf yalnızca bir başka sınıftan türeyebilir (extends ile).
 * Ancak, birden fazla interface implemente edilebilir (implements ile).
 * Eğer iki farklı interface aynı metodu tanımlarsa ve bir sınıf her iki interface'i de implemente ederse, hangi metodun çağrılacağı belirsiz hale gelir.
 Bu çakışma **_"Diamond Problem"_** olarak adlandırılır.
-* 
+
 
 **Java, çoklu sınıf kalıtımına izin vermez.**
 
@@ -150,8 +149,6 @@ Immutability, bir nesnenin oluşturulduktan sonra durumunun değiştirilememesi 
 
 ## 8 – Composition and Aggregation means and differences?
 
-
-
 ### Composition
 
 Bir nesnenin başka bir nesnenin ayrılmaz bir parçası olduğu güçlü bir ilişkiyi ifade eder.
@@ -198,7 +195,6 @@ Coupling (Bağımlılık) :
 ## 10 – Heap and Stack means and differences?
 
 
-
 Heap Memory (Yığın Bellek) :
 * Heap, Java uygulamasında **nesnelerin ve dizilerin** dinamik olarak tahsis edildiği bir bellek alanıdır.
 * Heap, **Garbage Collector (GC) tarafından yönetilir** ve nesneler bellekte gerektiği sürece varlığını sürdürür.
@@ -225,7 +221,6 @@ Stack Memory (Yığın Bellek) Tanımı:
 ## 11 – Exception means? Types of Exceptions?
 
 
-
 * Exception, programın normal akışını bozan **çalışma zamanı hatalarıdır**.
 * Java'da hataları yönetmek için `try-catch-finally` ve `throws` yapıları kullanılır.
 
@@ -246,15 +241,8 @@ Stack Memory (Yığın Bellek) Tanımı:
 
 ## 12 – How to summarize ‘clean code’ as short as possible?
 
-**Readable, maintainable, and well-structured code** that follows best practices like **SOLID, DRY, and KISS**.
 
-
-
-## 13 – What is method hiding in Java?
-
-
-
-* "Kolay okunabilir, bakımı ve genişletilmesi basit, gereksiz karmaşıklıktan uzak kod."
+Kolay okunabilir, bakımı ve genişletilmesi basit, gereksiz karmaşıklıktan uzak kod.
 
 *  **Anlamlı İsimler:** Değişken, metod ve sınıf adları açık ve açıklayıcı olmalı.
 *  **Tek Sorumluluk İlkesi (SRP):** Her sınıf ve metod yalnızca bir amaca hizmet etmeli.
@@ -262,6 +250,16 @@ Stack Memory (Yığın Bellek) Tanımı:
 *  **Kod Tekrarından Kaçınma (DRY):** Aynı kod farklı yerlerde tekrar edilmemeli.
 *  **Yorum Satırlarını Minimumda Tutma:** Kod kendini açıklayacak kadar net olmalı.
 *  **Basitlik ve Okunabilirlik:** Gereksiz karmaşıklıklardan kaçınılmalı.
+
+
+
+## 13 – What is method hiding in Java?
+
+Java'da method hiding (metot gizleme), bir alt sınıfta (subclass) bulunan static bir metodun, üst sınıftaki (superclass) aynı isimdeki static bir metodu gizlemesi durumudur. Metot gizleme, çalışma zamanında değil, derleme zamanında (compile-time) belirlenir.
+
+* Sadece static metodlar için geçerlidir.
+* Çalışma zamanı (runtime) yerine, derleme zamanında (compile-time) belirlenir.
+* Referans tipine göre çağrılır, nesnenin gerçek türüne bağlı değildir.
 
 
 ## 14 – What is the difference between abstraction and polymorphism in Java?
