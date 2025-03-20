@@ -61,6 +61,7 @@ Eğer `hashCode()` doğru şekilde override edilmezse, HashMap veya HashSet nesn
 ## 4 – Diamond problem in Java? How to fix it?
 
 ---
+
 * Çoklu kalıtım (multiple inheritance) nedeniyle oluşur.
 * Java'da bir sınıf yalnızca bir başka sınıftan türeyebilir (extends ile).
 * Ancak, birden fazla interface implemente edilebilir (implements ile).
